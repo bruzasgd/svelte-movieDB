@@ -1,0 +1,93 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-aaa3a2c8.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-1dddfd70.js",
+      "_singletons-a6a7384f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/search/[id].svelte",
+      "src/routes/movie/[id].svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-4b0e64a7.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1dddfd70.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-5edbe32c.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-9faa5e5c.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1dddfd70.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-d912c234.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1dddfd70.js",
+      "_MovieCard-c1eec3d4.js",
+      "_singletons-a6a7384f.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-09e4097b.css"
+    ]
+  },
+  "src/routes/search/[id].svelte": {
+    "file": "pages/search/_id_.svelte-b6f562da.js",
+    "src": "src/routes/search/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1dddfd70.js",
+      "_MovieCard-c1eec3d4.js"
+    ],
+    "css": [
+      "assets/pages/search/_id_.svelte-8eda3d68.css"
+    ]
+  },
+  "src/routes/movie/[id].svelte": {
+    "file": "pages/movie/_id_.svelte-a651ce10.js",
+    "src": "src/routes/movie/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1dddfd70.js"
+    ],
+    "css": [
+      "assets/pages/movie/_id_.svelte-f12b2645.css"
+    ]
+  },
+  "_vendor-1dddfd70.js": {
+    "file": "chunks/vendor-1dddfd70.js"
+  },
+  "_singletons-a6a7384f.js": {
+    "file": "chunks/singletons-a6a7384f.js"
+  },
+  "_MovieCard-c1eec3d4.js": {
+    "file": "chunks/MovieCard-c1eec3d4.js",
+    "imports": [
+      "_vendor-1dddfd70.js"
+    ],
+    "css": [
+      "assets/MovieCard-6e36a2ed.css"
+    ]
+  }
+}
